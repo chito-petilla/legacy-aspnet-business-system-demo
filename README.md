@@ -1,7 +1,7 @@
 # Legacy ASP.NET Business System Demo
 Sample ASP.NET Web Forms business application demonstrating accounting and management system architecture.
 
-A sample enterprise-style business management system built using ASP.NET Web Forms, C#, and SQL Server, demonstrating how traditional enterprise applications are structured, maintained, and extended in real-world legacy environments.
+A sample enterprise-level business management system built using ASP.NET Web Forms, C#, and SQL Server, demonstrating how traditional enterprise applications are structured, maintained, and extended in real-world legacy environments.
 
 This project simulates a long-running business system commonly used in accounting, customer management, and financial transaction processing systems.
 
@@ -16,17 +16,17 @@ It follows a traditional layered architecture (Presentation → Business → Dat
 ## Architecture
 The system is structured into the following layers:  
 &nbsp;•Presentation Layer (ASP.NET Web Forms)  
-	&ensp;o User interface for business operations  
-	&ensp;o Handles form submissions and page rendering  
+&ensp;o User interface for business operations  
+&ensp;o Handles form submissions and page rendering  
 &nbsp;•Business Layer (C#)  
-	&ensp;o Contains business rules and validation logic  
-	&ensp;o Processes customer and transaction workflows  
+&ensp;o Contains business rules and validation logic  
+&ensp;o Processes customer and transaction workflows  
 &nbsp;•Data Access Layer (ADO.NET)  
-	&ensp;o Handles communication with SQL Server  
-	&ensp;o Executes queries and stored procedures  
+&ensp;o Handles communication with SQL Server  
+&ensp;o Executes queries and stored procedures  
 &nbsp;•Database Layer (SQL Server)  
-	&ensp;o Stores structured business data  
-	&ensp;o Supports transactional and reporting operations 
+&ensp;o Stores structured business data  
+&ensp;o Supports transactional and reporting operations 
 
 ## Functional Modules
 &nbsp;•Customer Management (Create, Read, Update, Delete)  
@@ -51,17 +51,17 @@ legacy-aspnet-business-system-demo/
 ├── docs/  
 │   ├── architecture-diagram.png  
 │   ├── database-schema.png  
-│   └── screenshots/  
+│   ├── screenshots/  
 │  
 ├── source/  
 │   ├── BusinessLayer/  
 │   ├── DataLayer/  
 │   ├── Models/  
 │   ├── Utilities/  
-│   └── SamplePages/  
+│   ├── SamplePages/  
 │  
 └── sql/  
-    └── legacy-business-system.sql  
+    ├── legacy-business-system.sql  
 
 ## Engineering Highlights
 &nbsp;•Layered enterprise architecture (UI / Business / Data separation)  
